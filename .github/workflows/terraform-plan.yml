@@ -7,7 +7,7 @@ env:
   TF_CLOUD_ORGANIZATION: "pgsw-playground"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "dupa"
-  CONFIG_DIRECTORY: "./"
+  CONFIG_DIRECTORY: "./" 
 
 jobs:
   terraform:
